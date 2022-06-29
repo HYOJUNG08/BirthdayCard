@@ -32,4 +32,4 @@ MDBootstrap
 
 ### message.py
 : check the database every midnight and find the person whose birthday is today   
-: get the phone number and message from the database and send the birthday message   
+: get the phone number and message from the database and send the birthday message at midnight automatically   
