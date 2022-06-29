@@ -19,3 +19,17 @@ MDBootstrap
 1. Click 'Start' button
 2. Submit your friend's birthday, phone number, and birthday card
 3. Done!
+
+# How it works
+### submit.html
+: get data from the user (birthday, phone number, message)    
+
+### server.py
+: get data from submit.html and pass the data to the database.py   
+
+### database.py
+: put the data into database    
+
+### message.py
+: check the database every midnight and find the person whose birthday is today   
+: get the phone number and message from the database and send the birthday message   
