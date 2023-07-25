@@ -3,7 +3,7 @@ from hashlib import new
 import pymongo
 import re
 
-client = pymongo.MongoClient("mongodb+srv://bdcard:103626@cluster0.crijo.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("")
 db = client.bdcard
 collection = db.users
 
